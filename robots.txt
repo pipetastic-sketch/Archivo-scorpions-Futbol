@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/sitemap.xml
