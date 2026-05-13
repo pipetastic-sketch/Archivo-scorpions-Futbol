@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Scorpions</title>
+    <link href="file:///Users/pipe/Documents/Publii/sites/scorpions/preview/feed.xml" rel="self" />
+    <link href="file:///Users/pipe/Documents/Publii/sites/scorpions/preview" />
+    <updated>1969-12-31T19:00:00-05:00</updated>
+    <author>
+        <name>Felipe Perez</name>
+    </author>
+    <id>file:///Users/pipe/Documents/Publii/sites/scorpions/preview</id>
+
+</feed>

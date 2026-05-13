@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: file:////Users/pipe/Documents/Publii/sites/scorpions/preview/sitemap.xml
