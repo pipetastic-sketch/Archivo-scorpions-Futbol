@@ -421,7 +421,9 @@
       "Año": 2001,
       "descripción": "La imagen reúne dos fotografías de equipos en distintas etapas del proceso formativo de Scorpions. En la parte superior se observa un grupo más reducido, posiblemente en una etapa inicial, mientras que en la inferior aparece un equipo más amplio y diverso, acompañado por adultos y en un contexto más consolidado.",
       "enlance": "https://drive.google.com/file/d/1NmMZPjdbeAEJiT4aAVyvsyzrhdcz4d_V/view?usp=sharing",
-      "images": []
+      "images": [
+        "https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/media/files/collection/images/Scrp-F-38.jpg"
+      ]
     },
     {
       "pid": "Scrp-F-39",
