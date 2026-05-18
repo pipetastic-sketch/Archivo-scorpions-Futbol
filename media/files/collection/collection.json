@@ -5,7 +5,8 @@
     "Descripción": "text",
     "Enlace": "link",
     "Año": "date",
-    "Ejes": "text"
+    "Ejes": "text",
+    "Temas": "text"
   },
   "items": [
     {
