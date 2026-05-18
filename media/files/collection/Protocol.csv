@@ -1,6 +1,7 @@
 Attribute,Type
-pid,pid
-label,label
-descripción,text
-enlace,link
+Pid,pid
+Label,label
+Descripción,text
+Enlace,link
 Año,date
+Ejes ,text
