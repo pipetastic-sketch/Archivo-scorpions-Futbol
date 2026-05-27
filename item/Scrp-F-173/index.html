@@ -1,0 +1,121 @@
+<!DOCTYPE html><html lang="en-gb" data-theme="dark"><script>// Sync the attribute with the class shoelace expects
+      const theme = "dark";
+      if (theme === 'dark') {
+         document.documentElement.classList.add('sl-theme-dark');
+      } else {
+         document.documentElement.classList.add('sl-theme-light');
+      }</script><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scrp-F-173 - Scorpions, Memoria Visual del Fútbol Femenino</title><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/plantilla-de-item.html"><link rel="alternate" type="application/atom+xml" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/feed.xml" title="Scorpions, Memoria Visual del Fútbol Femenino - RSS"><link rel="alternate" type="application/json" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/feed.json" title="Scorpions, Memoria Visual del Fútbol Femenino - JSON"><meta property="og:title" content="Plantilla de item"><meta property="og:site_name" content="Scorpions, Memoria Visual del Fútbol Femenino"><meta property="og:description" content=""><meta property="og:url" content="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/plantilla-de-item.html"><meta property="og:type" content="article"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.fluid.classless.cyan.min.css"><link rel="stylesheet" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/assets/css/sl-theme-dark.css?v=7ffcaaf33706026fdce1538af587fdf6"><link rel="stylesheet" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/assets/css/style.css?v=8ad0c0e031d44953c4053832a42dda46"><script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.20.1/cdn/shoelace.js"></script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/plantilla-de-item.html"},"headline":"Plantilla de item","datePublished":"2026-04-29T12:16-05:00","dateModified":"2026-05-19T10:51-05:00","description":"","author":{"@type":"Person","name":"Felipe Perez","url":"https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/authors/felipe-perez/"},"publisher":{"@type":"Organization","name":"Felipe Perez"}}</script></head><body class="no-sidebar no-sidebar"><header><a id="logo" class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/"><h1>Scorpions, Memoria Visual del Fútbol Femenino</h1></a><nav><ul class="menu"><li><a class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/" target="_self">Inicio</a></li><li><a class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/justificacion.html" target="_self">Curaduría</a></li><li><a class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/linea-de-tiempo.html" target="_self">Línea de tiempo</a></li><li><a class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/explora.html" target="_self">Explora</a></li><li><a class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/camila.html" target="_self">Testimonios</a></li><li><a class="custom-link" href="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/acerca-del-proyecto.html" target="_self">Acerca del proyecto</a></li></ul></nav></header><main class="page"><article><div class="mirla-item-container">
+  <h1 class="mirla-item-title">Scrp-F-173</h1>
+  
+  <div class="mirla-viewer-container">
+    <div id="osd-viewer" data-domain="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol" class="mirla-osd-container"></div>
+  </div>
+  
+  <table class="mirla-metadata-table">
+    <tbody>
+      <tr class="mirla-table-row">
+<th class="mirla-table-header">Descripción</th>
+<td class="mirla-table-data">Video de partido donde Hady participa con Scorpions, mostrando el proceso deportivo y el compromiso del equipo dentro del torneo.</td>
+</tr>
+<tr class="mirla-table-row">
+<th class="mirla-table-header">Año</th>
+<td class="mirla-table-data">2026</td>
+</tr>
+<tr class="mirla-table-row">
+<th class="mirla-table-header">Ejes</th>
+<td class="mirla-table-data">Proyección</td>
+</tr>
+
+    </tbody>
+  </table>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.0/openseadragon.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    let images = [];
+    
+    if (images && images.length > 0) {
+      let tileSources = images.map(function(imgUrl) {
+        return { type: 'image', url: imgUrl };
+      });
+
+      // This solves the backslash issue on windows that prevented icons to be shown
+      const viewerEl = document.getElementById("osd-viewer");
+      const rawDomain = viewerEl.getAttribute("data-domain") || "";
+      const safeDomain = rawDomain.replace(/\\/g, "/");
+
+      let viewer = OpenSeadragon({
+        id: "osd-viewer",
+        prefixUrl: safeDomain + "/media/plugins/mirla/osd_icons/",
+        sequenceMode: tileSources.length > 1,
+        showReferenceStrip: tileSources.length > 1,
+        tileSources: tileSources
+      });
+    } else {
+      document.getElementById('osd-viewer').innerHTML = '<p style="text-align:center; padding: 2rem; color: #666;">No images available for this item.</p>';
+    }
+  });
+</script>
+
+<style>
+  .mirla-item-container {
+    max-width: 1000px;
+  }
+
+  .mirla-item-title {
+    text-align: left;
+  }
+
+  /* OpenSeadragon Viewer Containers */
+  .mirla-viewer-container {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 100%;
+    height: 500px;
+    margin: 0 auto 2.5rem auto;
+    overflow: hidden;
+  }
+
+  .mirla-osd-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Metadata Table */
+  .mirla-metadata-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .mirla-table-row:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .mirla-table-header {
+    width: 30%;
+    padding: 0.5rem;
+    font-weight: 600;
+    vertical-align: top;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .mirla-table-data {
+    padding: 0.5rem;
+    line-height: 1.5;
+    vertical-align: top;
+  }
+
+  .mirla-table-data a {
+    text-decoration: none;
+  }
+
+  .mirla-table-data a:hover {
+    text-decoration: underline;
+  }
+</style></article></main><footer></footer><script async src="https://pipetastic-sketch.github.io/Archivo-scorpions-Futbol/assets/js/scripts.js?v=3733efd39cd6c799b95c8fcb96993840"></script></body></html>
